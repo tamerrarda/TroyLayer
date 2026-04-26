@@ -1,6 +1,6 @@
 # TroyLayer
 
-Sunum Linki:
+Sunum Linki: https://drive.google.com/drive/folders/1HItLVeR56sOk13I1uwE1YNPn85xZqi4t?usp=share_link
 
 Troy Layer, Troy kartına sahip kullanıcıların uluslararası e-ticaret platformlarında ödeme yapamaması sorununu çözmek amacıyla geliştirilmiş, blokzincir tabanlı bir ödeme altyapısı projesidir. Troy Layer, bu boşluğu Troy'un yurt içi ödeme altyapısını blokzincir tabanlı bir mutabakat katmanına bağlayarak kapatır. Sistem altta gösterildiği sırayla çalışır.
 
