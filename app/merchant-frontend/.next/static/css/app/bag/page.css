@@ -1,0 +1,332 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/product/ProductCard.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ProductCard_card___H3uy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  cursor: pointer;
+}
+
+.ProductCard_imageWrap__n2W9U {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--ui05);
+}
+
+.ProductCard_image__5WkIn {
+  transition: transform var(--dur-med) var(--ease-standard);
+}
+
+.ProductCard_card___H3uy:hover .ProductCard_image__5WkIn {
+  transform: scale(1.03);
+}
+
+.ProductCard_heart__RyLxS {
+  position: absolute;
+  top: var(--s8);
+  right: var(--s8);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--ui01);
+  opacity: 0;
+  transition: opacity var(--dur-short) var(--ease-standard);
+}
+
+.ProductCard_card___H3uy:hover .ProductCard_heart__RyLxS,
+.ProductCard_heartActive__OYEln {
+  opacity: 1;
+}
+
+.ProductCard_brand__Z6zRm {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  font-weight: 400;
+}
+
+.ProductCard_name__pXblX {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.ProductCard_price__IGfaR {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/app/bag/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__UI2PK {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s36) var(--page-px) var(--s48);
+}
+
+.page_title___K1Z3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+/* Empty state */
+.page_emptyHeader__R_K8T {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.page_continueShopping___7LxG {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+.page_emptyDesc__kNn82 {
+  font-size: 1.5rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+  max-width: 60rem;
+}
+
+.page_emptyActions__oOz8e {
+  display: flex;
+  gap: var(--s12);
+  margin-bottom: var(--s24);
+}
+
+.page_emptyBtn__9F_0v {
+  height: 4.4rem;
+  padding: 0 var(--s24);
+  border: 0.1rem solid var(--ui01);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  display: flex;
+  align-items: center;
+  transition: background var(--dur-short);
+}
+
+.page_emptyBtn__9F_0v:hover {
+  background: var(--ui05);
+}
+
+.page_signInBtn__IlWqR {
+  height: 4.4rem;
+  width: 12rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-bottom: var(--s48);
+}
+
+/* Recommendations */
+.page_recommendations__5lxa0 {
+  margin-top: var(--s36);
+}
+
+.page_recoHeader__Hax98 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.page_recoTitle__AtQun {
+  font-size: 1.8rem;
+  color: var(--ui01);
+}
+
+.page_showMore__hNiEC {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.page_recoGrid__54hWI {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--s24) var(--s16);
+  gap: var(--s24) var(--s16);
+}
+
+/* Filled state */
+.page_filledHeader__MQQq5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.page_importNotice__aoxPd {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-align: center;
+  margin-bottom: var(--s24);
+  padding: var(--s12) 0;
+  border-top: 0.1rem solid var(--ui04);
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.page_layout__HeBcM {
+  display: grid;
+  grid-template-columns: 1fr 32rem;
+  grid-gap: var(--s36);
+  gap: var(--s36);
+  align-items: start;
+}
+
+/* Item */
+.page_items__lNXsv {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.page_item__vX5HM {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-gap: var(--s24);
+  gap: var(--s24);
+  padding: var(--s24) 0;
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.page_itemImage__rdI48 {
+  position: relative;
+  height: 16rem;
+  background: var(--ui05);
+}
+
+.page_itemDetails__ZgjEt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page_itemTop__Bt6ac {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s16);
+}
+
+.page_itemBrand__Fedz3 {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s4);
+}
+
+.page_itemName__ksBD_ {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.page_itemMeta__kSY9_ {
+  font-size: 1.2rem;
+  color: var(--ui03);
+}
+
+.page_itemRight__ZYg2q {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.page_itemPrice__gXjlm {
+  font-size: 1.6rem;
+  color: var(--ui01);
+  margin-bottom: var(--s4);
+}
+
+.page_itemDuties__UN6s4 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s8);
+}
+
+.page_removeBtn__HO6M5 {
+  color: var(--ui02);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.page_removeBtn__HO6M5:hover {
+  color: var(--ui01);
+}
+
+.page_itemBottom__LfELH {
+  padding-top: var(--s16);
+}
+
+.page_itemSizeQty__hTMUD {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+/* Summary */
+.page_summary__XcpUp {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem;
+}
+
+.page_summaryInner__LwzXU {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s24);
+}
+
+.page_summaryRow__l0xBg {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  padding: var(--s8) 0;
+}
+
+.page_summaryDivider__IMTEC {
+  height: 0.1rem;
+  background: var(--ui04);
+  margin: var(--s8) 0;
+}
+
+.page_summaryTotal__xqOtM {
+  font-size: 1.6rem;
+}
+
+.page_dutiesNote__Na_3F {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+}
+
+.page_checkoutBtn__FBqD9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.5rem;
+  transition: background var(--dur-short);
+  margin-bottom: var(--s16);
+}
+
+.page_checkoutBtn__FBqD9:hover {
+  background: var(--ui02);
+}
+
+.page_returnsNote__YLskC {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  text-align: center;
+  line-height: 1.6;
+}
+

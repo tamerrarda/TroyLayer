@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "pnpm --filter merchant-frontend dev",
     "build": "pnpm --filter merchant-frontend build",
+    "build:extension": "pnpm --filter troylayer-extension build",
+    "dev:extension": "pnpm --filter troylayer-extension dev",
     "lint": "pnpm -r lint"
   }
 }

@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "72f1b517d5b705b814760cbe773a1e2f",
-    "previewModeSigningKey": "363114b24b5c85879d0ba899e2d5ae84904d8cf65170492d18b4b8d170c14918",
-    "previewModeEncryptionKey": "2e03ea54983e2e311cb7ddb7d18f3b63d1c8b40d2f36c197df78bc9b6ad75a13"
-  }
-}
+{"version":4,"routes":{"/product/prada-skirt":{}},"dynamicRoutes":{"/product/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/product/[id]","routeRegex":"^\\/product\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"7ca033298ec34b9acda8a130b0932e51","previewModeSigningKey":"030f5057e99dd8c4063e5c906bf6973e76e66a28ec35073520db9cf3911d7b14","previewModeEncryptionKey":"1ec6878b2f94f8d2650fb442c6b385a9f8a7fe172544e59230b145b4a2c9945f"}}

@@ -1,0 +1,509 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/checkout/OrderSummaryPanel.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.OrderSummaryPanel_panel__dYy6e {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem;
+  padding: var(--s24);
+}
+
+.OrderSummaryPanel_totalLabel__aVfTI {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.OrderSummaryPanel_totalAmount__5O44_ {
+  font-size: 2rem;
+  color: var(--ui01);
+  margin-bottom: var(--s16);
+}
+
+.OrderSummaryPanel_cta__5DpGz {
+  width: 100%;
+  height: 5.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background var(--dur-short);
+  margin-bottom: var(--s12);
+  border: none;
+}
+
+.OrderSummaryPanel_cta__5DpGz:hover:not(:disabled) {
+  background: var(--ui02);
+}
+
+.OrderSummaryPanel_cta__5DpGz:disabled {
+  background: var(--ui05);
+  color: var(--ui03);
+  cursor: not-allowed;
+}
+
+.OrderSummaryPanel_terms__SL2YK {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 1.6;
+  margin-bottom: var(--s24);
+}
+
+.OrderSummaryPanel_terms__SL2YK a {
+  text-decoration: underline;
+  color: var(--ui02);
+}
+
+.OrderSummaryPanel_divider__6kwbF {
+  height: 0.1rem;
+  background: var(--ui04);
+  margin: var(--s16) 0;
+}
+
+.OrderSummaryPanel_summaryLabel___Gb5H {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s16);
+}
+
+.OrderSummaryPanel_product___bc1M {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  grid-gap: var(--s12);
+  gap: var(--s12);
+  margin-bottom: var(--s16);
+}
+
+.OrderSummaryPanel_productImg__97xJl {
+  position: relative;
+  height: 10rem;
+  background: var(--ui05);
+}
+
+.OrderSummaryPanel_productInfo___6Tw_ {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+}
+
+.OrderSummaryPanel_productBrand__T5nAO {
+  font-size: 1.3rem;
+  color: var(--ui01);
+}
+
+.OrderSummaryPanel_productPrice__y8RP9 {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.OrderSummaryPanel_rows__FVJ1o {
+  margin-bottom: var(--s16);
+}
+
+.OrderSummaryPanel_row__MguWz {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  padding: var(--s4) 0;
+}
+
+.OrderSummaryPanel_rowTotal__1b_oL {
+  font-size: 1.6rem;
+}
+
+.OrderSummaryPanel_dutiesNote__chr7r {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-top: var(--s4);
+}
+
+.OrderSummaryPanel_promo__LNx3K {
+  margin-bottom: var(--s16);
+}
+
+.OrderSummaryPanel_promoLabel__dN98G {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.OrderSummaryPanel_promoInput__0agTx {
+  width: 100%;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  display: block;
+  margin-bottom: var(--s8);
+}
+
+.OrderSummaryPanel_promoInput__0agTx:focus {
+  border-color: var(--ui01);
+  border-width: 0.2rem;
+}
+
+.OrderSummaryPanel_referral__LfZj2 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+}
+
+.OrderSummaryPanel_returns__Z8f74 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  color: var(--ui02);
+  padding: var(--s12) 0;
+  border-top: 0.1rem solid var(--ui04);
+}
+
+.OrderSummaryPanel_free__G1sqd {
+  color: var(--ui01);
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/app/checkout/page.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_checkoutWrap__BgeC4 {
+  min-height: 100vh;
+}
+
+.page_checkoutHeader__yNLmc {
+  height: 6.4rem;
+  border-bottom: 0.1rem solid var(--ui04);
+  background: var(--ui06);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.page_checkoutHeaderInner__nxT2G {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--page-px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page_secureLabel__eHmER {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.page_adyen__Wfo1Y {
+  color: var(--ui03);
+}
+
+.page_checkoutLogo__uQMN1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--ui01);
+}
+
+.page_helpLabel__wPU_5 {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.page_layout__C3vge {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s36) var(--page-px);
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  grid-gap: var(--s48);
+  gap: var(--s48);
+  align-items: start;
+}
+
+.page_left__pBla_ {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s24);
+}
+
+.page_right__y930k {
+  border: 0.1rem solid var(--ui04);
+}
+
+/* Confirmed blocks */
+.page_confirmedBlock__kkSzq {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s16) var(--s24);
+}
+
+.page_confirmedHeader__fBIr3 {
+  display: flex;
+  align-items: center;
+  gap: var(--s12);
+  margin-bottom: var(--s12);
+}
+
+.page_checkIcon__alVZw {
+  font-size: 1.6rem;
+}
+
+.page_confirmedTitle__B1UAi {
+  font-size: 1.5rem;
+  color: var(--ui01);
+  flex: 1 1;
+}
+
+.page_editBtn__Wdm9X {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.page_confirmedDetail__qr_fQ {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.8;
+  padding-left: 2.8rem;
+}
+
+/* Form section */
+.page_formSection__zZC9P {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s24);
+}
+
+.page_sectionTitle__k7geI {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: var(--s8);
+}
+
+.page_sectionSub__jalhx {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.page_required__S4vHC {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+}
+
+.page_form__FLUlx {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s16);
+}
+
+.page_row2__yLk0F {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--s16);
+  gap: var(--s16);
+}
+
+.page_field__OzIKW {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+}
+
+.page_label__RNmIS {
+  font-size: 1.3rem;
+  color: var(--ui01);
+}
+
+.page_input__Nvr30 {
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s8);
+  font-size: 1.5rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  width: 100%;
+  transition: border-color var(--dur-short);
+}
+
+.page_input__Nvr30::placeholder {
+  color: var(--ui03);
+}
+
+.page_input__Nvr30:focus {
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+.page_inputError__XMOIM {
+  border-color: var(--error);
+}
+
+.page_selectWrap__80W8y {
+  position: relative;
+}
+
+.page_select__ccaIy {
+  width: 100%;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s8);
+  font-size: 1.5rem;
+  background: var(--ui06);
+  cursor: pointer;
+}
+
+.page_addLine__tzL7W {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: var(--s4);
+}
+
+.page_phoneRow__ivOQ6 {
+  display: flex;
+  gap: var(--s8);
+}
+
+.page_phoneFlag__4yXoQ {
+  width: 5.6rem;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.page_phoneInput__5jdWm {
+  flex: 1 1;
+}
+
+.page_phoneNote__rCnBY {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-top: var(--s4);
+}
+
+.page_checkbox__FIcvS {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* Payment grid */
+.page_paymentGrid__HnTeQ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--s12);
+  gap: var(--s12);
+  margin-bottom: var(--s12);
+  margin-top: var(--s24);
+}
+
+.page_paymentCard__Bj76m {
+  height: 12rem;
+  border: 0.1rem solid var(--ui04);
+  background: #fff;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s8);
+  padding: var(--s12);
+  transition: border-color var(--dur-short), background var(--dur-short);
+}
+
+.page_paymentCard__Bj76m:hover {
+  border-color: var(--ui02);
+  background: var(--ui06);
+}
+
+.page_paymentIcon__9rJNN {
+  object-fit: contain;
+}
+
+.page_paymentLabel__qv3KV {
+  font-size: 1.2rem;
+  color: var(--ui02);
+}
+
+.page_paymentSelected__L5fSC {
+  border: 0.2rem solid var(--ui01);
+  background: var(--ui05);
+}
+
+.page_troyCard__JnT2r {
+  width: 100%;
+  height: 12rem;
+  border: 0.1rem solid var(--ui04);
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s8);
+  padding: var(--s12);
+  transition: border-color var(--dur-short), background var(--dur-short);
+}
+
+.page_troyCard__JnT2r:hover {
+  border-color: var(--ui02);
+  background: var(--ui06);
+}
+
+
+.page_expandedInfo__2lPti {
+  background: var(--ui05);
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s16) var(--s20);
+  margin-top: var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  line-height: 1.6;
+}
+
+.page_expandedSub__iS_nH {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-top: var(--s8);
+}
+
+/* Billing */
+.page_billingSection__l_xPm {
+  margin-top: var(--s24);
+}
+
+.page_billingTitle__S6_Qc {
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.page_billingBox__VVJd5 {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s16);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.8;
+}
+

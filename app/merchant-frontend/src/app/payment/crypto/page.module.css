@@ -1,0 +1,156 @@
+.page {
+  min-height: 100vh;
+  background: var(--ui05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--s48) var(--page-px);
+}
+
+.merchant {
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+  color: var(--ui01);
+  margin-bottom: var(--s36);
+}
+
+.card {
+  background: var(--ui06);
+  border: 0.1rem solid var(--ui04);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 48rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s24);
+}
+
+.orderDetails {}
+
+.detailLabel {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.detailAmount {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: var(--ui01);
+}
+
+.detailAmount span {
+  font-size: 1.8rem;
+  color: var(--ui02);
+}
+
+.detailUsdc {
+  font-size: 1.6rem;
+  color: var(--ui02);
+  margin-top: var(--s4);
+}
+
+.detailUsdc span {
+  font-size: 1.3rem;
+  color: #2775ca;
+  font-weight: 500;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.sectionLabel {
+  font-size: 1.2rem;
+  color: var(--ui02);
+}
+
+.coinRow {
+  display: flex;
+  align-items: center;
+  gap: var(--s12);
+  padding: var(--s12) var(--s16);
+  border: 0.1rem solid var(--ui04);
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  transition: background var(--dur-short);
+}
+
+.coinRow:hover {
+  background: var(--ui05);
+}
+
+.coinDot {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.chevron {
+  margin-left: auto;
+  color: var(--ui03);
+  font-size: 1.8rem;
+}
+
+.recommended {
+  font-size: 1rem;
+  background: #2775ca;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  letter-spacing: 0.04em;
+}
+
+.divider {
+  height: 0.1rem;
+  background: var(--ui04);
+}
+
+.usdcAmount {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--ui01);
+}
+
+.usdcAmount span {
+  font-size: 1.4rem;
+  color: #2775ca;
+  font-weight: 500;
+}
+
+.networkBadge {
+  background: #0052ff;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: var(--s8) var(--s12);
+  letter-spacing: 0.03em;
+}
+
+.addressBox {
+  border: 0.1rem dashed var(--ui04);
+  padding: var(--s16);
+  text-align: center;
+}
+
+.address {
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  word-break: break-all;
+}
+
+.warning {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+.waiting {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-align: center;
+}

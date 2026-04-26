@@ -1,0 +1,416 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/layout/MegaMenu.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MegaMenu_menu__rEqAy {
+  border-top: 0.1rem solid var(--ui04);
+  border-bottom: 0.1rem solid var(--ui04);
+  background: var(--ui06);
+}
+
+.MegaMenu_inner__6zKEn {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3.2rem 6.4rem;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.MegaMenu_cols__8Anzl {
+  display: flex;
+  gap: 4.8rem;
+  flex: 1 1;
+}
+
+.MegaMenu_col__1rU9P {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 14rem;
+}
+
+.MegaMenu_colHeading__lCoS6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  color: var(--ui01);
+  margin-bottom: 0.8rem;
+}
+
+.MegaMenu_link__eTGjd {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 3.2rem;
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.MegaMenu_link__eTGjd:hover {
+  color: var(--ui01);
+}
+
+.MegaMenu_spotlight__TRNny {
+  width: 20rem;
+  flex-shrink: 0;
+}
+
+.MegaMenu_spotlightImg__7tPlK {
+  width: 100%;
+  height: 13rem;
+  overflow: hidden;
+  margin-bottom: var(--s12);
+}
+
+.MegaMenu_spotlightCaption__0aNOR {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.MegaMenu_spotlightTitle__6Zekw {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.MegaMenu_spotlightLink__aGUGx {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/layout/Navbar.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_header__UKF8E {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--ui06);
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.Navbar_nav___WITp {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--page-px);
+  height: 6.4rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.Navbar_left__lNErq {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.Navbar_navLink__A03oH {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  padding: 0 1.6rem;
+  height: 6.4rem;
+  display: flex;
+  align-items: center;
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.Navbar_navLink__A03oH:hover {
+  color: var(--ui02);
+}
+
+.Navbar_logo__Am5h2 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: var(--ui01);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.Navbar_right__AgXB0 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--s8);
+}
+
+.Navbar_searchWrap__W65GT {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  border: 0.1rem solid var(--ui04);
+  height: 3.6rem;
+  width: 22rem;
+  padding: 0 var(--s12);
+}
+
+.Navbar_searchIcon__wjnxJ {
+  color: var(--ui02);
+  flex-shrink: 0;
+}
+
+.Navbar_search__0rCw3 {
+  border: none;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  width: 100%;
+  background: transparent;
+}
+
+.Navbar_search__0rCw3::placeholder {
+  color: var(--ui02);
+}
+
+.Navbar_iconBtn__uyYD0 {
+  position: relative;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ui01);
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.Navbar_iconBtn__uyYD0:hover {
+  color: var(--ui02);
+}
+
+.Navbar_badge__3QmAI {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100rem;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/tokens.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  /* Colors */
+  --ui01: #222222;
+  --ui02: #727272;
+  --ui03: #b6b6b6;
+  --ui04: #e6e6e6;
+  --ui05: #f5f5f5;
+  --ui06: #ffffff;
+  --sale: #e71d34;
+  --error: #c41429;
+  --error-bg: #ffeff1;
+  --success: #048273;
+  --success-bg: #ebf9f7;
+  --warning: #faca21;
+  --overlay: rgba(34, 34, 34, 0.4);
+
+  /* Troy-specific */
+  --troy-red: #c8102e;
+  --troy-amber: #f5a623;
+  --troy-bg: #f5f5f5;
+
+  /* Typography */
+  --font-sans: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Nimbus Roman D", "Times New Roman", serif;
+
+  /* Spacing */
+  --s4: 0.4rem;
+  --s8: 0.8rem;
+  --s12: 1.2rem;
+  --s16: 1.6rem;
+  --s24: 2.4rem;
+  --s36: 3.6rem;
+  --s48: 4.8rem;
+
+  /* Layout */
+  --max-width: 144rem;
+  --page-px: 2.4rem;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.66, 0, 0.2, 1);
+  --ease-decel: cubic-bezier(0, 0, 0, 1);
+  --dur-short: 150ms;
+  --dur-med: 300ms;
+  --dur-long: 600ms;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/global.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+html {
+  font-size: 10px; /* Farfetch root: 1rem = 10px */
+  min-width: 1280px;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  line-height: 1.333;
+  font-weight: 400;
+  color: var(--ui01);
+  background: var(--ui06);
+  -webkit-font-smoothing: antialiased;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/layout/TopBanner.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.TopBanner_banner__P8ib2 {
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  border-bottom: 0.1rem solid var(--ui04);
+  text-align: center;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/layout/Footer.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__eNA9m {
+  background: var(--ui06);
+  border-top: 0.1rem solid var(--ui04);
+  margin-top: 6.4rem;
+}
+
+.Footer_inner__ngCVB {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4.8rem var(--page-px) 3.2rem;
+}
+
+.Footer_cols__IFfHH {
+  display: flex;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.Footer_col__TmcuA {
+  flex: 1 1;
+  min-width: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.Footer_colHeading__x0h2r {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: 1.6rem;
+}
+
+.Footer_link___mmVB {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 2.8rem;
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.Footer_link___mmVB:hover {
+  color: var(--ui01);
+}
+
+.Footer_social__MxJPj {
+  display: flex;
+  gap: 1.6rem;
+  color: var(--ui01);
+}
+
+.Footer_social__MxJPj a {
+  color: var(--ui01);
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.Footer_social__MxJPj a:hover {
+  color: var(--ui02);
+}
+
+.Footer_legal__CrE8A {
+  border-top: 0.1rem solid var(--ui04);
+  padding-top: 2.4rem;
+}
+
+.Footer_legalLinks__U0QDU {
+  display: flex;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.6rem;
+}
+
+.Footer_legalLink__QOSHD {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.Footer_legalLink__QOSHD:hover {
+  color: var(--ui01);
+}
+
+.Footer_copyright__vFlrA {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 2rem;
+}
+

@@ -1,0 +1,160 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/app/payment/crypto/page.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__73qLi {
+  min-height: 100vh;
+  background: var(--ui05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--s48) var(--page-px);
+}
+
+.page_merchant__pM_d9 {
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+  color: var(--ui01);
+  margin-bottom: var(--s36);
+}
+
+.page_card__cPigf {
+  background: var(--ui06);
+  border: 0.1rem solid var(--ui04);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 48rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s24);
+}
+
+.page_orderDetails___LloN {}
+
+.page_detailLabel__491v3 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.page_detailAmount__LJaSw {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: var(--ui01);
+}
+
+.page_detailAmount__LJaSw span {
+  font-size: 1.8rem;
+  color: var(--ui02);
+}
+
+.page_detailUsdc__cu_Tr {
+  font-size: 1.6rem;
+  color: var(--ui02);
+  margin-top: var(--s4);
+}
+
+.page_detailUsdc__cu_Tr span {
+  font-size: 1.3rem;
+  color: #2775ca;
+  font-weight: 500;
+}
+
+.page_section___RakQ {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.page_sectionLabel__lKkMj {
+  font-size: 1.2rem;
+  color: var(--ui02);
+}
+
+.page_coinRow__VmwJc {
+  display: flex;
+  align-items: center;
+  gap: var(--s12);
+  padding: var(--s12) var(--s16);
+  border: 0.1rem solid var(--ui04);
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  transition: background var(--dur-short);
+}
+
+.page_coinRow__VmwJc:hover {
+  background: var(--ui05);
+}
+
+.page_coinDot__M88GZ {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.page_chevron__tbCCV {
+  margin-left: auto;
+  color: var(--ui03);
+  font-size: 1.8rem;
+}
+
+.page_recommended__Jn9LM {
+  font-size: 1rem;
+  background: #2775ca;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  letter-spacing: 0.04em;
+}
+
+.page_divider__I48FG {
+  height: 0.1rem;
+  background: var(--ui04);
+}
+
+.page_usdcAmount__eW__u {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--ui01);
+}
+
+.page_usdcAmount__eW__u span {
+  font-size: 1.4rem;
+  color: #2775ca;
+  font-weight: 500;
+}
+
+.page_networkBadge__hZ_yO {
+  background: #0052ff;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: var(--s8) var(--s12);
+  letter-spacing: 0.03em;
+}
+
+.page_addressBox__CgGbt {
+  border: 0.1rem dashed var(--ui04);
+  padding: var(--s16);
+  text-align: center;
+}
+
+.page_address__Wi4Hj {
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  word-break: break-all;
+}
+
+.page_warning__T426N {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+.page_waiting__uD8_5 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-align: center;
+}
+

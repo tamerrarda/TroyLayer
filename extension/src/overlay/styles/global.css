@@ -1,0 +1,52 @@
+@import "./tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+html {
+  font-size: 10px; /* 1rem = 10px, matching Farfetch design system */
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  line-height: 1.333;
+  font-weight: 400;
+  color: var(--ui01);
+  background: var(--troy-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+button {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+  outline: none;
+  appearance: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "TroyLayer – Pay with Troy",
+  "version": "0.1.0",
+  "description": "Detects crypto payment options and offers to pay with Troy card (TRY) via Base blockchain.",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:8545/",
+    "http://localhost:8000/",
+    "http://192.168.1.52:8545/",
+    "http://192.168.1.52:8000/",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.ts-CahiMBAa.js"
+      ],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "resources": [
+        "src/overlay/index.html",
+        "assets/*",
+        "troy-logo.png",
+        "icon-128.png",
+        "assets/index.ts-CahiMBAa.js",
+        "assets/index.ts-CahiMBAa.js.map"
+      ],
+      "use_dynamic_url": false
+    }
+  ],
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": true
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' http://localhost:8545 http://localhost:8000 http://192.168.1.52:8545 http://192.168.1.52:8000"
+  }
+}

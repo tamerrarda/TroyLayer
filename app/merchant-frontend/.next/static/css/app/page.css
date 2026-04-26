@@ -1,0 +1,285 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__ZU32B {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Department Selector */
+.page_deptSelector__IxR7v {
+  padding: var(--s48) var(--page-px);
+}
+
+.page_chooseDept__FgRxZ {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: var(--s24);
+  color: var(--ui01);
+}
+
+.page_deptGrid__58nV6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  gap: 0;
+}
+
+.page_deptTile__BlzBP {
+  position: relative;
+  height: 48rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.page_deptTile__BlzBP::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.page_deptLabel__V8fpK {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  padding-bottom: 2.4rem;
+}
+
+/* Department Strips */
+.page_deptStrip__amlpZ {
+  padding: var(--s36) var(--page-px);
+}
+
+.page_stripHeading__jo8JE {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: var(--s24);
+  color: var(--ui01);
+}
+
+.page_stripGrid__3RPsy {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--s8);
+  gap: var(--s8);
+}
+
+.page_stripItem__GNV0K {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.page_stripImgWrap__wRase {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--ui05);
+}
+
+.page_stripLabel__d9Az6 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  letter-spacing: 0.05rem;
+}
+
+/* Info Boxes */
+.page_infoSection__X8cLJ {
+  padding: var(--s36) var(--page-px);
+  border-top: 0.1rem solid var(--ui04);
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.page_infoGrid__fwsVI {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.6rem;
+  gap: 1.6rem;
+}
+
+.page_infoBox__75laU {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s24);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.page_infoIcon__GLaWb {
+  color: var(--ui01);
+}
+
+.page_infoTitle__4OOsT {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  font-weight: 400;
+}
+
+.page_infoDesc__zJU_A {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+/* Newsletter */
+.page_newsletter__86quH {
+  padding: var(--s48) var(--page-px);
+}
+
+.page_newsletterInner__vRNMg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--s48);
+  gap: var(--s48);
+  align-items: start;
+}
+
+.page_newsletterHeading__olRUY {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: var(--s12);
+}
+
+.page_newsletterDesc__Srs96 {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+.page_newsletterLabel__if6Ti {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  margin-bottom: var(--s12);
+}
+
+.page_newsletterInput__4jXn9 {
+  width: 100%;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s12);
+  display: block;
+}
+
+.page_newsletterInput__4jXn9::placeholder {
+  color: var(--ui03);
+}
+
+.page_newsletterInput__4jXn9:focus {
+  outline: none;
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+.page_newsletterBtn__dzOAW {
+  width: 100%;
+  height: 4.4rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background var(--dur-short) var(--ease-standard);
+}
+
+.page_newsletterBtn__dzOAW:hover {
+  background: var(--ui02);
+}
+
+/* Featured Products */
+.page_featured__4xI3W {
+  padding: var(--s36) var(--page-px);
+}
+
+.page_featuredHeader__ZxbQ0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.page_featuredText__VadoN {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.page_shopNow__vZkDb {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+.page_productGrid__GJuvN {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--s24) var(--s16);
+  gap: var(--s24) var(--s16);
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.15_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/product/ProductCard.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ProductCard_card___H3uy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  cursor: pointer;
+}
+
+.ProductCard_imageWrap__n2W9U {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--ui05);
+}
+
+.ProductCard_image__5WkIn {
+  transition: transform var(--dur-med) var(--ease-standard);
+}
+
+.ProductCard_card___H3uy:hover .ProductCard_image__5WkIn {
+  transform: scale(1.03);
+}
+
+.ProductCard_heart__RyLxS {
+  position: absolute;
+  top: var(--s8);
+  right: var(--s8);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--ui01);
+  opacity: 0;
+  transition: opacity var(--dur-short) var(--ease-standard);
+}
+
+.ProductCard_card___H3uy:hover .ProductCard_heart__RyLxS,
+.ProductCard_heartActive__OYEln {
+  opacity: 1;
+}
+
+.ProductCard_brand__Z6zRm {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  font-weight: 400;
+}
+
+.ProductCard_name__pXblX {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.ProductCard_price__IGfaR {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+

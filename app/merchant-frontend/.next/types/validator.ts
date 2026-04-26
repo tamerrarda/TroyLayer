@@ -83,6 +83,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/payment/crypto/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/payment/crypto">> = Specific
+  const handler = {} as typeof import("../../src/app/payment/crypto/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/payment/redirect/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/payment/redirect">> = Specific

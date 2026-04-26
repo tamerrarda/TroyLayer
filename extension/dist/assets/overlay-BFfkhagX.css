@@ -1,0 +1,655 @@
+._spinner_1wvju_1 {
+  border: 0.2rem solid var(--ui04);
+  border-top-color: var(--ui01);
+  border-radius: 50%;
+  animation: _spin_1wvju_1 0.8s linear infinite;
+}
+
+@keyframes _spin_1wvju_1 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+._page_1tc90_1 {
+  min-height: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background: var(--troy-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--s48) var(--page-px);
+}
+
+._merchantName_1tc90_12 {
+  text-align: center;
+  margin-bottom: var(--s36);
+}
+
+._merchant_1tc90_12 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--ui01);
+  margin-bottom: var(--s4);
+}
+
+._poweredBy_1tc90_24 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s4);
+}
+
+._troyInline_1tc90_33 {
+  color: var(--troy-red);
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+._card_1tc90_39 {
+  background: var(--ui06);
+  border: 0.1rem solid var(--ui04);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 48rem;
+  padding: 4rem;
+}
+
+/* Amount */
+._amountBlock_1tc90_48 {
+  text-align: left;
+  margin-bottom: var(--s24);
+}
+
+._amountLabel_1tc90_53 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-bottom: var(--s8);
+}
+
+._amountTRY_1tc90_59 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: var(--ui01);
+  line-height: 1;
+  margin-bottom: var(--s4);
+}
+
+._amountUSD_1tc90_67 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+._divider_1tc90_72 {
+  height: 0.1rem;
+  background: var(--ui04);
+  margin: var(--s24) 0;
+}
+
+/* Fields */
+._field_1tc90_79 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  margin-bottom: var(--s16);
+}
+
+._label_1tc90_86 {
+  font-size: 1.1rem;
+  color: var(--ui02);
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+._input_1tc90_93 {
+  height: 4.8rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  font-size: 1.6rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  width: 100%;
+  transition: border-color var(--dur-short);
+}
+
+._input_1tc90_93:focus {
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+._input_1tc90_93::placeholder {
+  color: var(--ui03);
+}
+
+._cardInputWrap_1tc90_113 {
+  position: relative;
+}
+
+._cardInput_1tc90_113 {
+  height: 4.8rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  padding-right: 6rem;
+  font-size: 1.6rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  width: 100%;
+  letter-spacing: 0.4rem;
+  font-family: monospace;
+  transition: border-color var(--dur-short);
+}
+
+._cardInput_1tc90_113:focus {
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+._cardInput_1tc90_113::placeholder {
+  letter-spacing: 0.2rem;
+  color: var(--ui03);
+}
+
+._cardBadge_1tc90_141 {
+  position: absolute;
+  right: var(--s12);
+  top: 50%;
+  transform: translateY(-50%);
+  object-fit: contain;
+}
+
+._row2_1tc90_149 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s8);
+}
+
+/* Pay button */
+._payBtn_1tc90_156 {
+  width: 100%;
+  min-height: 5.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background var(--dur-short);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s4);
+  margin-top: var(--s24);
+  border: none;
+  line-height: 1.4;
+}
+
+._payBtn_1tc90_156:hover {
+  background: var(--ui02);
+}
+
+._payAmount_1tc90_178 {
+  font-size: 1.3rem;
+}
+
+._secureNote_1tc90_182 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s4);
+  margin-top: var(--s16);
+}
+
+._cancelLink_1tc90_192 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: var(--s12);
+  background: none;
+  border: none;
+}
+
+._cancelLink_1tc90_192:hover {
+  color: var(--ui01);
+}
+
+/* OTP */
+._otpWrap_1tc90_210 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s16);
+  text-align: center;
+}
+
+._otpTitle_1tc90_218 {
+  font-size: 1.6rem;
+  color: var(--ui01);
+}
+
+._otpDesc_1tc90_223 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 1.7;
+}
+
+._maskedPhone_1tc90_229 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--ui01);
+}
+
+._otpInput_1tc90_235 {
+  height: 6rem;
+  width: 100%;
+  border: 0.1rem solid var(--ui04);
+  font-size: 3.2rem;
+  letter-spacing: 1.6rem;
+  text-align: center;
+  font-family: monospace;
+  color: var(--ui01);
+  background: var(--ui06);
+}
+
+._otpInput_1tc90_235:focus {
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+._resend_1tc90_252 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+._otpTimer_1tc90_257 {
+  font-family: monospace;
+  color: var(--ui02);
+}
+
+/* Processing */
+._processingWrap_1tc90_263 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s16);
+  text-align: center;
+}
+
+._processingTitle_1tc90_271 {
+  font-size: 1.6rem;
+  color: var(--ui01);
+  line-height: 1.6;
+}
+
+._stepDivider_1tc90_277 {
+  height: 0.1rem;
+  background: var(--ui04);
+  width: 100%;
+  margin: var(--s8) 0;
+}
+
+._stepRow_1tc90_284 {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s12);
+  width: 100%;
+  text-align: left;
+}
+
+._stepIcon_1tc90_292 {
+  font-size: 1.4rem;
+  color: var(--ui03);
+  width: 2rem;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+._stepDone_1tc90_300 {
+  color: var(--success);
+}
+
+._stepActive_1tc90_304 {
+  animation: _pulse_1tc90_1 1s ease-in-out infinite;
+  color: var(--ui01);
+}
+
+@keyframes _pulse_1tc90_1 {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+._stepLabel_1tc90_314 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+._stepLabelDone_1tc90_319 {
+  color: var(--ui01);
+}
+
+._stepLabelActive_1tc90_323 {
+  font-weight: 400;
+  color: var(--ui01);
+}
+
+._stepLabelEn_1tc90_328 {
+  font-size: 1.2rem;
+  color: var(--ui03);
+}
+
+._dontClose_1tc90_333 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+/* Result states */
+._resultWrap_1tc90_340 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s16);
+  text-align: center;
+}
+
+._circle_1tc90_348 {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+  color: white;
+}
+
+._circleSuccess_1tc90_359 {
+  background: var(--success);
+}
+
+._circleFailure_1tc90_363 {
+  background: var(--troy-red);
+}
+
+._circleRefund_1tc90_367 {
+  background: var(--troy-amber);
+}
+
+._resultTitle_1tc90_371 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--ui01);
+  line-height: 1.4;
+}
+
+._resultAmount_1tc90_378 {
+  font-size: 1.6rem;
+  color: var(--ui01);
+}
+
+._resultAmountUSD_1tc90_383 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-top: -0.8rem;
+}
+
+._resultDesc_1tc90_389 {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.8;
+}
+
+._txHash_1tc90_395 {
+  font-size: 1.1rem;
+  color: var(--ui03);
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+._txHash_1tc90_395 span {
+  font-family: monospace;
+  color: var(--ui02);
+}
+._copyBtn_1tc90_407 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ui03);
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+._copyBtn_1tc90_407:hover {
+  color: var(--ui01);
+}
+
+._redirectNote_1tc90_420 {
+  font-size: 1.2rem;
+  color: var(--ui03);
+  text-align: center;
+}
+
+/* Intro / instructions screen */
+._introWrap_1tc90_427 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s16);
+}
+
+._introBadge_1tc90_433 {
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--troy-red);
+  border: 0.1rem solid var(--troy-red);
+  padding: 0.3rem 0.8rem;
+  align-self: flex-start;
+}
+
+._introHeadline_1tc90_444 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--ui01);
+  line-height: 1.3;
+}
+
+._introSub_1tc90_451 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 1.7;
+}
+
+._introAmount_1tc90_457 {
+  background: var(--ui05);
+  padding: var(--s16);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+}
+
+._introAmountLabel_1tc90_465 {
+  font-size: 1.1rem;
+  color: var(--ui02);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+._introAmountValue_1tc90_472 {
+  font-size: 2.8rem;
+  color: var(--ui01);
+  line-height: 1;
+}
+
+._introAmountUsd_1tc90_478 {
+  font-size: 1.2rem;
+  color: var(--ui02);
+}
+
+._introRateNote_1tc90_483 {
+  font-size: 1.1rem;
+  color: var(--ui03);
+}
+
+._introSteps_1tc90_488 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s12);
+  border-top: 0.1rem solid var(--ui04);
+  padding-top: var(--s16);
+}
+
+._introStep_1tc90_488 {
+  display: flex;
+  gap: var(--s12);
+  align-items: flex-start;
+}
+
+._introStepNum_1tc90_502 {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+._introStep_1tc90_488 strong {
+  display: block;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  margin-bottom: 0.2rem;
+}
+
+._introStep_1tc90_488 p {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 1.5;
+}
+
+/* USD amount entry (shown when page amount detection fails) */
+._amountEntry_1tc90_529 {
+  margin-bottom: var(--s24);
+}
+
+._amountEntryLabel_1tc90_533 {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-bottom: var(--s8);
+}
+
+._amountEntryInput_1tc90_539 {
+  height: 4.8rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  font-size: 2rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  width: 100%;
+}
+:root {
+  /* Colors */
+  --ui01: #222222;
+  --ui02: #727272;
+  --ui03: #b6b6b6;
+  --ui04: #e6e6e6;
+  --ui05: #f5f5f5;
+  --ui06: #ffffff;
+  --sale: #e71d34;
+  --error: #c41429;
+  --error-bg: #ffeff1;
+  --success: #048273;
+  --success-bg: #ebf9f7;
+  --warning: #faca21;
+  --overlay: rgba(34, 34, 34, 0.4);
+
+  /* Troy-specific */
+  --troy-red: #c8102e;
+  --troy-amber: #f5a623;
+  --troy-bg: #f5f5f5;
+
+  /* Typography */
+  --font-sans: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Nimbus Roman D", "Times New Roman", serif;
+
+  /* Spacing */
+  --s4: 0.4rem;
+  --s8: 0.8rem;
+  --s12: 1.2rem;
+  --s16: 1.6rem;
+  --s24: 2.4rem;
+  --s36: 3.6rem;
+  --s48: 4.8rem;
+
+  /* Layout */
+  --max-width: 144rem;
+  --page-px: 2.4rem;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.66, 0, 0.2, 1);
+  --ease-decel: cubic-bezier(0, 0, 0, 1);
+  --dur-short: 150ms;
+  --dur-med: 300ms;
+  --dur-long: 600ms;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+html {
+  font-size: 10px; /* 1rem = 10px, matching Farfetch design system */
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  line-height: 1.333;
+  font-weight: 400;
+  color: var(--ui01);
+  background: var(--troy-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+button {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+  outline: none;
+  appearance: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

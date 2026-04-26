@@ -7,12 +7,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import OrderSummaryPanel from "@/components/checkout/OrderSummaryPanel";
-import TroyOptionBlock from "@/components/checkout/TroyOptionBlock";
-import { formatTRY, usdToTRY } from "@/lib/format";
-import { TRY_RATE_BASE, MOCK_ADDRESS } from "@/data/products";
+import { MOCK_ADDRESS } from "@/data/products";
 import styles from "./page.module.css";
 
-type PaymentMethod = "paypal" | "card" | "crypto" | "apple" | "troy" | null;
+type PaymentMethod = "paypal" | "card" | "crypto" | "apple" | null;
 
 type AddressForm = {
   firstName: string;
@@ -31,7 +29,6 @@ export default function CheckoutPage() {
   const router = useRouter();
   const [step, setStep] = useState(1);
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>(null);
-  const [tryRate] = useState(TRY_RATE_BASE);
 
   const { register, handleSubmit, formState: { errors } } = useForm<AddressForm>({
     defaultValues: {
@@ -44,8 +41,6 @@ export default function CheckoutPage() {
     },
   });
 
-  const tryAmount = usdToTRY(TOTAL, tryRate);
-
   function onAddressSubmit() {
     setStep(2);
     setTimeout(() => setStep(3), 600);
@@ -57,14 +52,13 @@ export default function CheckoutPage() {
   }
 
   function onPlaceOrder() {
-    router.push("/payment/redirect");
+    if (paymentMethod === "crypto") {
+      router.push(`/payment/crypto?amount=${TOTAL}`);
+    }
   }
 
   function getCtaLabel() {
-    if (step === 4) {
-      if (paymentMethod === "troy") return `Pay ${formatTRY(tryAmount)} TRY`;
-      return "Pay with Crypto";
-    }
+    if (step === 4) return "Pay with Crypto";
     if (step === 3) return "Confirm Payment Method";
     return "Continue";
   }
@@ -215,8 +209,8 @@ export default function CheckoutPage() {
                 {([
                   { id: "paypal",  label: "PayPal",              icon: "/paypal.svg",     iconW: 80, iconH: 20 },
                   { id: "card",    label: "Debit or credit card", icon: "/mastercard.svg", iconW: 40, iconH: 26 },
-                  { id: "troy",    label: "Troy Card (TRY)",      icon: "/troy-logo.png",  iconW: 72, iconH: 26 },
                   { id: "apple",   label: "Apple Pay",            icon: "/applepay.svg",   iconW: 58, iconH: 24 },
+                  { id: "crypto",  label: "Cryptocurrency",       icon: "/crypto.svg",     iconW: 22, iconH: 36 },
                 ] as const).map(({ id, label, icon, iconW, iconH }) => (
                   <button
                     key={id}
@@ -228,20 +222,6 @@ export default function CheckoutPage() {
                   </button>
                 ))}
               </div>
-
-              {/* Crypto — full width */}
-              <button
-                className={`${styles.troyCard} ${paymentMethod === "crypto" ? styles.paymentSelected : ""}`}
-                onClick={() => setPaymentMethod("crypto")}
-              >
-                <Image src="/crypto.svg" alt="Crypto" width={22} height={36} className={styles.paymentIcon} />
-                <span className={styles.paymentLabel}>Cryptocurrency</span>
-              </button>
-
-              {/* Troy expanded info */}
-              {paymentMethod === "troy" && (
-                <TroyOptionBlock total={TOTAL} tryRate={tryRate} />
-              )}
 
               {/* Billing address */}
               {paymentMethod && (
@@ -294,14 +274,7 @@ export default function CheckoutPage() {
                   <button className={styles.editBtn} onClick={() => setStep(3)}>Edit</button>
                 </div>
                 <div className={styles.confirmedDetail}>
-                  {paymentMethod === "troy" ? (
-                    <>
-                      <p>Troy Card (TRY)</p>
-                      <p>{formatTRY(tryAmount)} TRY ≈ USD ${TOTAL.toLocaleString("en-US", { minimumFractionDigits: 2 })}</p>
-                    </>
-                  ) : (
-                    <p>Cryptocurrency</p>
-                  )}
+                  <p>Cryptocurrency</p>
                   <p>Billing address Same as Delivery</p>
                 </div>
               </div>
