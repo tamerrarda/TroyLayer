@@ -1,0 +1,58 @@
+.btn {
+  height: 4.4rem;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background var(--dur-short) var(--ease-standard),
+    color var(--dur-short) var(--ease-standard),
+    border-color var(--dur-short) var(--ease-standard);
+  white-space: nowrap;
+  letter-spacing: 0.05rem;
+}
+
+.btn:disabled {
+  background: var(--ui05);
+  color: var(--ui03);
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--ui01);
+  color: var(--ui06);
+  border: 0.1rem solid var(--ui01);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--ui02);
+  border-color: var(--ui02);
+}
+
+.primary:active:not(:disabled) {
+  background: var(--ui03);
+  border-color: var(--ui03);
+}
+
+.outline {
+  background: transparent;
+  color: var(--ui01);
+  border: 0.1rem solid var(--ui01);
+}
+
+.outline:hover:not(:disabled) {
+  background: var(--ui05);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--ui01);
+  border: none;
+  text-decoration: underline;
+}
+
+.fullWidth {
+  width: 100%;
+}

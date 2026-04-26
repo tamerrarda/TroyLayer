@@ -1,0 +1,75 @@
+.menu {
+  border-top: 0.1rem solid var(--ui04);
+  border-bottom: 0.1rem solid var(--ui04);
+  background: var(--ui06);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3.2rem 6.4rem;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.cols {
+  display: flex;
+  gap: 4.8rem;
+  flex: 1;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 14rem;
+}
+
+.colHeading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  color: var(--ui01);
+  margin-bottom: 0.8rem;
+}
+
+.link {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 3.2rem;
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.link:hover {
+  color: var(--ui01);
+}
+
+.spotlight {
+  width: 20rem;
+  flex-shrink: 0;
+}
+
+.spotlightImg {
+  width: 100%;
+  height: 13rem;
+  overflow: hidden;
+  margin-bottom: var(--s12);
+}
+
+.spotlightCaption {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.spotlightTitle {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.spotlightLink {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}

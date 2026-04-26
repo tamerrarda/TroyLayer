@@ -1,0 +1,67 @@
+.block {
+  background: var(--ui05);
+  border: 0.1rem solid var(--ui04);
+  padding: 2rem;
+  margin-top: var(--s12);
+  position: relative;
+}
+
+.infoText {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  line-height: 1.7;
+  margin-bottom: var(--s12);
+}
+
+.rateLine {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  margin-bottom: var(--s12);
+}
+
+.rateText {
+  font-size: 1.2rem;
+  color: var(--ui02);
+}
+
+.countdown {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+}
+
+.timer {
+  font-family: monospace;
+  color: var(--ui02);
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+}
+
+.redirectNote {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+.toast {
+  position: fixed;
+  bottom: var(--s24);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  font-size: 1.3rem;
+  padding: var(--s12) var(--s24);
+  z-index: 200;
+  animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  70% { opacity: 1; }
+  100% { opacity: 0; }
+}

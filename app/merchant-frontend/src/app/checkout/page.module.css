@@ -1,0 +1,336 @@
+.checkoutWrap {
+  min-height: 100vh;
+}
+
+.checkoutHeader {
+  height: 6.4rem;
+  border-bottom: 0.1rem solid var(--ui04);
+  background: var(--ui06);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.checkoutHeaderInner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--page-px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secureLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.adyen {
+  color: var(--ui03);
+}
+
+.checkoutLogo {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--ui01);
+}
+
+.helpLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.layout {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s36) var(--page-px);
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: var(--s48);
+  align-items: start;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s24);
+}
+
+.right {
+  border: 0.1rem solid var(--ui04);
+}
+
+/* Confirmed blocks */
+.confirmedBlock {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s16) var(--s24);
+}
+
+.confirmedHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--s12);
+  margin-bottom: var(--s12);
+}
+
+.checkIcon {
+  font-size: 1.6rem;
+}
+
+.confirmedTitle {
+  font-size: 1.5rem;
+  color: var(--ui01);
+  flex: 1;
+}
+
+.editBtn {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.confirmedDetail {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.8;
+  padding-left: 2.8rem;
+}
+
+/* Form section */
+.formSection {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s24);
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: var(--s8);
+}
+
+.sectionSub {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.required {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s16);
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s16);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+}
+
+.label {
+  font-size: 1.3rem;
+  color: var(--ui01);
+}
+
+.input {
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s8);
+  font-size: 1.5rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  width: 100%;
+  transition: border-color var(--dur-short);
+}
+
+.input::placeholder {
+  color: var(--ui03);
+}
+
+.input:focus {
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+.inputError {
+  border-color: var(--error);
+}
+
+.selectWrap {
+  position: relative;
+}
+
+.select {
+  width: 100%;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s8);
+  font-size: 1.5rem;
+  background: var(--ui06);
+  cursor: pointer;
+}
+
+.addLine {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: var(--s4);
+}
+
+.phoneRow {
+  display: flex;
+  gap: var(--s8);
+}
+
+.phoneFlag {
+  width: 5.6rem;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.phoneInput {
+  flex: 1;
+}
+
+.phoneNote {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-top: var(--s4);
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* Payment grid */
+.paymentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s12);
+  margin-bottom: var(--s12);
+  margin-top: var(--s24);
+}
+
+.paymentCard {
+  height: 12rem;
+  border: 0.1rem solid var(--ui04);
+  background: #fff;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s8);
+  padding: var(--s12);
+  transition: border-color var(--dur-short), background var(--dur-short);
+}
+
+.paymentCard:hover {
+  border-color: var(--ui02);
+  background: var(--ui06);
+}
+
+.paymentIcon {
+  object-fit: contain;
+}
+
+.paymentLabel {
+  font-size: 1.2rem;
+  color: var(--ui02);
+}
+
+.paymentSelected {
+  border: 0.2rem solid var(--ui01);
+  background: var(--ui05);
+}
+
+.troyCard {
+  width: 100%;
+  height: 12rem;
+  border: 0.1rem solid var(--ui04);
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s8);
+  padding: var(--s12);
+  transition: border-color var(--dur-short), background var(--dur-short);
+}
+
+.troyCard:hover {
+  border-color: var(--ui02);
+  background: var(--ui06);
+}
+
+
+.expandedInfo {
+  background: var(--ui05);
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s16) var(--s20);
+  margin-top: var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  line-height: 1.6;
+}
+
+.expandedSub {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-top: var(--s8);
+}
+
+/* Billing */
+.billingSection {
+  margin-top: var(--s24);
+}
+
+.billingTitle {
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.billingBox {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s16);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.8;
+}

@@ -1,0 +1,215 @@
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Department Selector */
+.deptSelector {
+  padding: var(--s48) var(--page-px);
+}
+
+.chooseDept {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: var(--s24);
+  color: var(--ui01);
+}
+
+.deptGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.deptTile {
+  position: relative;
+  height: 48rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.deptTile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.deptLabel {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  padding-bottom: 2.4rem;
+}
+
+/* Department Strips */
+.deptStrip {
+  padding: var(--s36) var(--page-px);
+}
+
+.stripHeading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: var(--s24);
+  color: var(--ui01);
+}
+
+.stripGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s8);
+}
+
+.stripItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.stripImgWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--ui05);
+}
+
+.stripLabel {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  letter-spacing: 0.05rem;
+}
+
+/* Info Boxes */
+.infoSection {
+  padding: var(--s36) var(--page-px);
+  border-top: 0.1rem solid var(--ui04);
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.infoBox {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s24);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.infoIcon {
+  color: var(--ui01);
+}
+
+.infoTitle {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  font-weight: 400;
+}
+
+.infoDesc {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+/* Newsletter */
+.newsletter {
+  padding: var(--s48) var(--page-px);
+}
+
+.newsletterInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s48);
+  align-items: start;
+}
+
+.newsletterHeading {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: var(--s12);
+}
+
+.newsletterDesc {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+.newsletterLabel {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  margin-bottom: var(--s12);
+}
+
+.newsletterInput {
+  width: 100%;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s12);
+  display: block;
+}
+
+.newsletterInput::placeholder {
+  color: var(--ui03);
+}
+
+.newsletterInput:focus {
+  outline: none;
+  border-width: 0.2rem;
+  border-color: var(--ui01);
+}
+
+.newsletterBtn {
+  width: 100%;
+  height: 4.4rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background var(--dur-short) var(--ease-standard);
+}
+
+.newsletterBtn:hover {
+  background: var(--ui02);
+}
+
+/* Featured Products */
+.featured {
+  padding: var(--s36) var(--page-px);
+}
+
+.featuredHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.featuredText {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.shopNow {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s24) var(--s16);
+}

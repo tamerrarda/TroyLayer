@@ -6,3 +6,19 @@ contracts/lib/
 contracts/out/
 
 contracts/cache/
+
+app/node_modules/
+
+app/merchant-frontend/node_modules/
+
+app/merchant-frontend/.env.local
+
+app/design.md
+
+app/.env
+
+app/.env.example
+
+node_modules/
+
+app/merchant-frontend/.next/cache/

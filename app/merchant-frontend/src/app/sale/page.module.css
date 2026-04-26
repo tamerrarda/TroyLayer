@@ -1,0 +1,105 @@
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s24) var(--page-px) var(--s48);
+}
+
+.breadcrumb {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+}
+
+.breadcrumb a {
+  color: var(--ui02);
+}
+
+.breadcrumb a:hover {
+  color: var(--ui01);
+}
+
+.header {
+  margin-bottom: var(--s24);
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: var(--s12);
+}
+
+.desc {
+  font-size: 1.5rem;
+  color: var(--ui02);
+  max-width: 60rem;
+  line-height: 1.5;
+  margin-bottom: var(--s24);
+}
+
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.tab {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  padding: var(--s12) var(--s16);
+  cursor: pointer;
+  border-bottom: 0.2rem solid transparent;
+  transition: color var(--dur-short);
+}
+
+.tab:hover {
+  color: var(--ui01);
+}
+
+.tabActive {
+  color: var(--ui01);
+  border-bottom-color: var(--ui01);
+}
+
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--s16) 0;
+  border-bottom: 0.1rem solid var(--ui04);
+  margin-bottom: var(--s24);
+}
+
+.chips {
+  display: flex;
+  gap: var(--s8);
+  flex-wrap: wrap;
+}
+
+.chip {
+  height: 3.6rem;
+  padding: 0 1.4rem;
+  border: 0.1rem solid var(--ui04);
+  border-radius: 100rem;
+  font-size: 1.2rem;
+  color: var(--ui01);
+  cursor: pointer;
+  transition: border-color var(--dur-short);
+  white-space: nowrap;
+}
+
+.chip:hover {
+  border-color: var(--ui01);
+}
+
+.sortBtn {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s24) var(--s16);
+}

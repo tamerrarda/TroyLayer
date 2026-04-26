@@ -1,0 +1,88 @@
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 56rem;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4.8rem 6.4rem;
+  gap: var(--s16);
+}
+
+.heroSub {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  letter-spacing: 0.1rem;
+}
+
+.heroTitle {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--ui01);
+}
+
+.heroDesc {
+  font-size: 1.6rem;
+  color: var(--ui02);
+  line-height: 1.5;
+}
+
+.shopNowBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui01);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  transition: background var(--dur-short) var(--ease-standard),
+    color var(--dur-short) var(--ease-standard);
+}
+
+.shopNowBtn:hover {
+  background: var(--ui01);
+  color: var(--ui06);
+}
+
+.heroImage {
+  position: relative;
+  overflow: hidden;
+}
+
+.gridSection {
+  padding: var(--s48) var(--page-px);
+}
+
+.gridHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.gridTitle {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.shopNow {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s24) var(--s16);
+}

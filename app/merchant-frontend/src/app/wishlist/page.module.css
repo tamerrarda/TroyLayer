@@ -1,0 +1,26 @@
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s48) var(--page-px);
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: var(--s16);
+}
+
+.desc {
+  font-size: 1.5rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+}
+
+.signInBtn {
+  height: 4.4rem;
+  width: 12rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.4rem;
+  cursor: pointer;
+}

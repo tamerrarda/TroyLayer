@@ -1,0 +1,159 @@
+.panel {
+  position: sticky;
+  top: 8rem;
+  padding: var(--s24);
+}
+
+.totalLabel {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.totalAmount {
+  font-size: 2rem;
+  color: var(--ui01);
+  margin-bottom: var(--s16);
+}
+
+.cta {
+  width: 100%;
+  height: 5.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background var(--dur-short);
+  margin-bottom: var(--s12);
+  border: none;
+}
+
+.cta:hover:not(:disabled) {
+  background: var(--ui02);
+}
+
+.cta:disabled {
+  background: var(--ui05);
+  color: var(--ui03);
+  cursor: not-allowed;
+}
+
+.terms {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  line-height: 1.6;
+  margin-bottom: var(--s24);
+}
+
+.terms a {
+  text-decoration: underline;
+  color: var(--ui02);
+}
+
+.divider {
+  height: 0.1rem;
+  background: var(--ui04);
+  margin: var(--s16) 0;
+}
+
+.summaryLabel {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s16);
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: var(--s12);
+  margin-bottom: var(--s16);
+}
+
+.productImg {
+  position: relative;
+  height: 10rem;
+  background: var(--ui05);
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+}
+
+.productBrand {
+  font-size: 1.3rem;
+  color: var(--ui01);
+}
+
+.productPrice {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.rows {
+  margin-bottom: var(--s16);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  padding: var(--s4) 0;
+}
+
+.rowTotal {
+  font-size: 1.6rem;
+}
+
+.dutiesNote {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-top: var(--s4);
+}
+
+.promo {
+  margin-bottom: var(--s16);
+}
+
+.promoLabel {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.promoInput {
+  width: 100%;
+  height: 4.4rem;
+  border: 0.1rem solid var(--ui04);
+  padding: 0 var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  display: block;
+  margin-bottom: var(--s8);
+}
+
+.promoInput:focus {
+  border-color: var(--ui01);
+  border-width: 0.2rem;
+}
+
+.referral {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+}
+
+.returns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  color: var(--ui02);
+  padding: var(--s12) 0;
+  border-top: 0.1rem solid var(--ui04);
+}
+
+.free {
+  color: var(--ui01);
+}

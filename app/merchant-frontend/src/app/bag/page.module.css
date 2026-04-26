@@ -1,0 +1,263 @@
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s36) var(--page-px) var(--s48);
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+/* Empty state */
+.emptyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.continueShopping {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+.emptyDesc {
+  font-size: 1.5rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+  max-width: 60rem;
+}
+
+.emptyActions {
+  display: flex;
+  gap: var(--s12);
+  margin-bottom: var(--s24);
+}
+
+.emptyBtn {
+  height: 4.4rem;
+  padding: 0 var(--s24);
+  border: 0.1rem solid var(--ui01);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  display: flex;
+  align-items: center;
+  transition: background var(--dur-short);
+}
+
+.emptyBtn:hover {
+  background: var(--ui05);
+}
+
+.signInBtn {
+  height: 4.4rem;
+  width: 12rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-bottom: var(--s48);
+}
+
+/* Recommendations */
+.recommendations {
+  margin-top: var(--s36);
+}
+
+.recoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.recoTitle {
+  font-size: 1.8rem;
+  color: var(--ui01);
+}
+
+.showMore {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.recoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s24) var(--s16);
+}
+
+/* Filled state */
+.filledHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--s24);
+}
+
+.importNotice {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  text-align: center;
+  margin-bottom: var(--s24);
+  padding: var(--s12) 0;
+  border-top: 0.1rem solid var(--ui04);
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 32rem;
+  gap: var(--s36);
+  align-items: start;
+}
+
+/* Item */
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  gap: var(--s24);
+  padding: var(--s24) 0;
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.itemImage {
+  position: relative;
+  height: 16rem;
+  background: var(--ui05);
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s16);
+}
+
+.itemBrand {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s4);
+}
+
+.itemName {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-bottom: var(--s4);
+}
+
+.itemMeta {
+  font-size: 1.2rem;
+  color: var(--ui03);
+}
+
+.itemRight {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.itemPrice {
+  font-size: 1.6rem;
+  color: var(--ui01);
+  margin-bottom: var(--s4);
+}
+
+.itemDuties {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s8);
+}
+
+.removeBtn {
+  color: var(--ui02);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.removeBtn:hover {
+  color: var(--ui01);
+}
+
+.itemBottom {
+  padding-top: var(--s16);
+}
+
+.itemSizeQty {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+/* Summary */
+.summary {
+  position: sticky;
+  top: 8rem;
+}
+
+.summaryInner {
+  border: 0.1rem solid var(--ui04);
+  padding: var(--s24);
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  padding: var(--s8) 0;
+}
+
+.summaryDivider {
+  height: 0.1rem;
+  background: var(--ui04);
+  margin: var(--s8) 0;
+}
+
+.summaryTotal {
+  font-size: 1.6rem;
+}
+
+.dutiesNote {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  margin-bottom: var(--s24);
+}
+
+.checkoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.5rem;
+  transition: background var(--dur-short);
+  margin-bottom: var(--s16);
+}
+
+.checkoutBtn:hover {
+  background: var(--ui02);
+}
+
+.returnsNote {
+  font-size: 1.2rem;
+  color: var(--ui02);
+  text-align: center;
+  line-height: 1.6;
+}

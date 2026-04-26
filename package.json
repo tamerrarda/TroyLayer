@@ -1,0 +1,11 @@
+{
+  "name": "troy-x402",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter merchant-frontend dev",
+    "build": "pnpm --filter merchant-frontend build",
+    "lint": "pnpm -r lint"
+  }
+}

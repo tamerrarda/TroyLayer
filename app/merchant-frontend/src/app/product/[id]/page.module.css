@@ -1,0 +1,217 @@
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s36) var(--page-px);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 8rem 1fr 40rem;
+  gap: var(--s24);
+  margin-bottom: var(--s48);
+}
+
+/* Thumbnails */
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s8);
+}
+
+.thumb {
+  width: 8rem;
+  height: 10rem;
+  overflow: hidden;
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  transition: border-color var(--dur-short);
+  flex-shrink: 0;
+}
+
+.thumbActive {
+  border-color: var(--ui01);
+}
+
+/* Main image */
+.mainImage {
+  position: relative;
+  background: var(--ui05);
+  min-height: 60rem;
+}
+
+/* Info panel */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s16);
+}
+
+.brand {
+  font-size: 1.6rem;
+  letter-spacing: 0.05rem;
+  color: var(--ui01);
+}
+
+.name {
+  font-size: 1.4rem;
+  color: var(--ui02);
+}
+
+.price {
+  font-size: 2rem;
+  color: var(--ui01);
+}
+
+.duties {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-top: -0.8rem;
+}
+
+.sizeGuide {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  text-decoration: underline;
+}
+
+.sizeSelect {
+  border: 0.1rem solid var(--ui04);
+  transition: border-color var(--dur-short);
+}
+
+.sizeError {
+  border-color: var(--error);
+}
+
+.select {
+  width: 100%;
+  height: 4.4rem;
+  padding: 0 var(--s12);
+  font-size: 1.4rem;
+  color: var(--ui01);
+  background: var(--ui06);
+  cursor: pointer;
+  border: none;
+}
+
+.selectedSize {
+  height: 4.4rem;
+  padding: 0 var(--s12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.changeSize {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sizeErrorMsg {
+  font-size: 1.2rem;
+  color: var(--error);
+  margin-top: -0.8rem;
+}
+
+.addBtn {
+  height: 5.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background var(--dur-short);
+  width: 100%;
+}
+
+.addBtn:hover {
+  background: var(--ui02);
+}
+
+.goToBag {
+  color: var(--ui06);
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.delivery {
+  margin-top: var(--s8);
+}
+
+.deliveryLabel {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.deliveryDate {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}
+
+.returns {
+  padding: var(--s16);
+  border: 0.1rem solid var(--ui04);
+  font-size: 1.3rem;
+  color: var(--ui02);
+  line-height: 1.6;
+}
+
+/* Accordion */
+.accordion {
+  border-top: 0.1rem solid var(--ui04);
+}
+
+.accordionToggle {
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  font-size: 1.4rem;
+  color: var(--ui01);
+  cursor: pointer;
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.accordionBody {
+  padding: var(--s24) 0;
+}
+
+.detailsCols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s48);
+}
+
+.detailsTitle {
+  font-size: 1.4rem;
+  color: var(--ui01);
+  margin-bottom: var(--s8);
+}
+
+.detailsDesc {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  line-height: 1.6;
+  margin-bottom: var(--s12);
+}
+
+.highlightList {
+  font-size: 1.4rem;
+  color: var(--ui02);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  margin-bottom: var(--s16);
+}
+
+.detailsMeta {
+  font-size: 1.3rem;
+  color: var(--ui02);
+  margin-top: var(--s8);
+}

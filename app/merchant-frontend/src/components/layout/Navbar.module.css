@@ -1,0 +1,111 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--ui06);
+  border-bottom: 0.1rem solid var(--ui04);
+}
+
+.nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--page-px);
+  height: 6.4rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.navLink {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  padding: 0 1.6rem;
+  height: 6.4rem;
+  display: flex;
+  align-items: center;
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.navLink:hover {
+  color: var(--ui02);
+}
+
+.logo {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: var(--ui01);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--s8);
+}
+
+.searchWrap {
+  display: flex;
+  align-items: center;
+  gap: var(--s8);
+  border: 0.1rem solid var(--ui04);
+  height: 3.6rem;
+  width: 22rem;
+  padding: 0 var(--s12);
+}
+
+.searchIcon {
+  color: var(--ui02);
+  flex-shrink: 0;
+}
+
+.search {
+  border: none;
+  font-size: 1.3rem;
+  color: var(--ui01);
+  width: 100%;
+  background: transparent;
+}
+
+.search::placeholder {
+  color: var(--ui02);
+}
+
+.iconBtn {
+  position: relative;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ui01);
+  transition: color var(--dur-short) var(--ease-standard);
+}
+
+.iconBtn:hover {
+  color: var(--ui02);
+}
+
+.badge {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.2rem;
+  background: var(--ui01);
+  color: var(--ui06);
+  font-size: 1rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100rem;
+}

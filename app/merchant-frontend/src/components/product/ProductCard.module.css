@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  cursor: pointer;
+}
+
+.imageWrap {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--ui05);
+}
+
+.image {
+  transition: transform var(--dur-med) var(--ease-standard);
+}
+
+.card:hover .image {
+  transform: scale(1.03);
+}
+
+.heart {
+  position: absolute;
+  top: var(--s8);
+  right: var(--s8);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--ui01);
+  opacity: 0;
+  transition: opacity var(--dur-short) var(--ease-standard);
+}
+
+.card:hover .heart,
+.heartActive {
+  opacity: 1;
+}
+
+.brand {
+  font-size: 1.3rem;
+  color: var(--ui01);
+  font-weight: 400;
+}
+
+.name {
+  font-size: 1.3rem;
+  color: var(--ui02);
+}
+
+.price {
+  font-size: 1.4rem;
+  color: var(--ui01);
+}

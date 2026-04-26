@@ -1,0 +1,45 @@
+:root {
+  /* Colors */
+  --ui01: #222222;
+  --ui02: #727272;
+  --ui03: #b6b6b6;
+  --ui04: #e6e6e6;
+  --ui05: #f5f5f5;
+  --ui06: #ffffff;
+  --sale: #e71d34;
+  --error: #c41429;
+  --error-bg: #ffeff1;
+  --success: #048273;
+  --success-bg: #ebf9f7;
+  --warning: #faca21;
+  --overlay: rgba(34, 34, 34, 0.4);
+
+  /* Troy-specific */
+  --troy-red: #c8102e;
+  --troy-amber: #f5a623;
+  --troy-bg: #f5f5f5;
+
+  /* Typography */
+  --font-sans: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Nimbus Roman D", "Times New Roman", serif;
+
+  /* Spacing */
+  --s4: 0.4rem;
+  --s8: 0.8rem;
+  --s12: 1.2rem;
+  --s16: 1.6rem;
+  --s24: 2.4rem;
+  --s36: 3.6rem;
+  --s48: 4.8rem;
+
+  /* Layout */
+  --max-width: 144rem;
+  --page-px: 2.4rem;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.66, 0, 0.2, 1);
+  --ease-decel: cubic-bezier(0, 0, 0, 1);
+  --dur-short: 150ms;
+  --dur-med: 300ms;
+  --dur-long: 600ms;
+}
